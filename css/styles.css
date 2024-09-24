@@ -1,39 +1,33 @@
-
-        body, html {
-            font-family: 'Inter', sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            height: 100%; /* Para ocupar toda a tela */
-            overflow-x: hidden; /* Evita a rolagem horizontal */
+        body, html {  
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 100%; /* Para ocupar toda a tela */
+        overflow-x: hidden; /* Evita a rolagem horizontal */
         }
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
+            padding: 10px;
             background-color: #f8f8f8;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: sticky;
             top: 0;
             z-index: 1000;
         }
-        #logo {
-            font-family: 'Stretch Pro', sans-serif; 
-            font-size: 32px;
-            margin-left: 20px;
-        }
         nav ul {
             display: flex;
             list-style-type: none;
             padding: 0;
             margin: 0;
-            gap: 40px;
+            gap: 60px;
         }
         nav a {
             text-decoration: none;
             color: #000;
-            padding: 5px 10px;
+            padding: 5px 40px;
             transition: background-color 0.3s;
         }
         nav a:hover {
@@ -61,8 +55,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 80vh; /* Ocupar a maior parte da tela */
-            padding: 20px;
+            min-height: 120vh; /* Ocupar a maior parte da tela */
+            padding: 40px;
         }
         #agendar, #conectar, #cadastrar {
             margin-top: 20px;
@@ -75,8 +69,14 @@
             box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
             transition: all 0.3s;
         }
-        #agendar:hover, #conectar:hover {
+        #agendar:hover, #conectar:hover, #cadastrar:hover {
             box-shadow: 0 0 20px rgba(0, 0, 255, 1);
+        }
+        #logo {
+            width: 300px; /* Ajuste o tamanho conforme necessário */
+            height: auto; /* Mantém a proporção */
+            display: inline-block;
+            vertical-align: middle; /* Alinha o logo com o texto */
         }
         #main-image {
             width: 100%;
@@ -91,13 +91,13 @@
         }
         .separator-line {
             width: 80%;
-            height: 3px;
+            height: 9px;
             background-color: #ccc;
             margin: 50px auto;
         }
         .info-section {
-            margin: 40px auto;
-            max-width: 800px;
+            margin: 20px auto;
+            max-width: 880px;
             text-align: left;
             padding: 0 10px;
         }
@@ -109,4 +109,4 @@
             font-size: 14px;
             color: #777;
         }
-  
+    
