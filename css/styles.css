@@ -58,7 +58,7 @@
             min-height: 120vh; /* Ocupar a maior parte da tela */
             padding: 40px;
         }
-        #agendar, #conectar, #cadastrar {
+        #agendar, #conectar{
             margin-top: 20px;
             padding: 10px 20px;
             background-color: #04a2eb;
@@ -69,7 +69,18 @@
             box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
             transition: all 0.3s;
         }
-        #agendar:hover, #conectar:hover {
+        #cadastrar {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #04a2eb;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+            transition: all 0.3s;
+        }
+        #agendar:hover, #conectar:hover, #cadastrar:hover {
             box-shadow: 0 0 20px rgba(0, 0, 255, 1);
         }
         #logo {
