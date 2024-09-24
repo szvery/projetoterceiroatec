@@ -64,7 +64,7 @@
             min-height: 80vh; /* Ocupar a maior parte da tela */
             padding: 20px;
         }
-        #agendar, #conectar {
+        #agendar, #conectar, #cadastrar {
             margin-top: 20px;
             padding: 10px 20px;
             background-color: #04a2eb;
